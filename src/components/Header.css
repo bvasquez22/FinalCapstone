@@ -1,0 +1,30 @@
+header {
+    height: 75px;
+    background-color: #999999;
+    color: #660000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.fab_nav {
+    font-family: 'montserrat', sans-serif;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fab_logo {
+    font-family: 'MedievalSharp', cursive;
+}
+
+.fab_nav :hover {
+    transform: scale(1.02);
+    color: #8F0000;
+    transition: .1s;
+}
