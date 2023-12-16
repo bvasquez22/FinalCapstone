@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    text-align: center;
+}
+
+.home_page {
+    height: 84vh;
+    background-color: #D0D0D0;
+}
+
+.intro_text {
+    font-family: 'montserrat', sans-serif;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.fab_name {
+    font-family: 'MedievalSharp', cursive;
+    color: #660000;
+    font-weight: bold;
+    font-size: larger;
+}

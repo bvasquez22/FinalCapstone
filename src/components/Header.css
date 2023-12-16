@@ -1,5 +1,5 @@
 header {
-    height: 75px;
+    height: 8vh;
     background-color: #999999;
     color: #660000;
     display: flex;
@@ -23,7 +23,7 @@ header {
     font-family: 'MedievalSharp', cursive;
 }
 
-.fab_nav :hover {
+.fab_nav :hover, .fab_sign_in :hover {
     transform: scale(1.02);
     color: #8F0000;
     transition: .1s;
