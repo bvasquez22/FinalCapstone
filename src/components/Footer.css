@@ -1,0 +1,17 @@
+a:link, a:visited {
+    text-decoration: none;
+    color: #8F0000;
+}
+
+footer {
+    height: 8vh;
+    background-color: #999999;
+    color: #660000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px; 
+}
