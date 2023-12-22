@@ -25,7 +25,12 @@ header {
     font-family: 'MedievalSharp', cursive;
 }
 
-.fab_nav :hover, .fab_sign_in :hover {
+.nav_link:link, .nav_link:visited {
+    text-decoration: none;
+    color: #660000;
+}
+
+.nav_link :hover {
     transform: scale(1.02);
     color: #8F0000;
     transition: .1s;
