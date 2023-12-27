@@ -1,15 +1,9 @@
-* {
-    margin: 0px;
-    /* text-align: center; */
-}
-
 .signin_container {
     height: 80vh;
     background-color: #D0D0D0;
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .signin_text {
@@ -33,7 +27,7 @@
 }
 
 .password_container {
-    border: black 2px solid;
+    display: flex;
 }
 
 .username_input, .password_input {
@@ -44,20 +38,46 @@
     border: #001524 1px solid;
     border-radius: 6px;
     padding: 8px;
+    text-align: left;
+}
+
+.password_input {
+    width: 350px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.toggle-password {
+    width: 32px;
+    height: 40px;
+    background-color: #D0D0D0;
+    border: #001524 1px solid;
+    border-left: 0px;
+    border-radius: 6px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eye_icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color:#001524;
+}
+
+.active {
+    background-color: #D0D0D0;
+    border: #001524 1px solid;
 }
 
 .username_input:focus,
 .password_input:focus {
     border-color: #8F0000;
     outline: none;
-}
-
-.eye-icon {
-    display: block;
-    width: 20px;
-    height: 20px;
-    background-color:#001524;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
 .signin_button {

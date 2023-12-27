@@ -24,7 +24,7 @@ const SignIn = () => {
           />
           <label className="toggle-password" onClick={togglePasswordVisibility}>
             <span
-              className={`eye-icon${isPasswordVisible ? " active" : ""}`}
+              className={`eye_icon${isPasswordVisible ? " active" : ""}`}
             ></span>
           </label>
         </div>
