@@ -30,7 +30,7 @@ header {
     color: #660000;
 }
 
-.nav_link :hover {
+.nav_link:hover {
     transform: scale(1.02);
     color: #8F0000;
     transition: .1s;
