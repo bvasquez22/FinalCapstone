@@ -1,0 +1,21 @@
+.set_dropdown {
+    margin-top: 22vh;
+    z-index: 999;
+}
+
+ul {
+    list-style: none;
+    padding: unset;
+    margin: unset;
+}
+
+li {
+    background-color: #999999;
+    color: #660000;
+    padding: 8px;
+}
+
+li:hover {
+    border: #8F0000 1px solid;
+    color: #8F0000;
+}

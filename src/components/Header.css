@@ -1,4 +1,5 @@
 header {
+    z-index: 3;
     height: 8vh;
     background-color: #999999;
     color: #660000;
@@ -19,6 +20,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.nav_link {
+    position: relative;
 }
 
 .fab_logo {
