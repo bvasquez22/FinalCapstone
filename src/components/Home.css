@@ -1,11 +1,8 @@
-* {
+.home_page {
+    height: 79vh;
+    background-color: #D0D0D0;
     margin: 0px;
     text-align: center;
-}
-
-.home_page {
-    height: 80vh;
-    background-color: #D0D0D0;
 }
 
 .intro_text {

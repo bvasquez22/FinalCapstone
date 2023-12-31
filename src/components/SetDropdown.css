@@ -3,19 +3,19 @@
     z-index: 999;
 }
 
-ul {
+.set_dropdown_list {
     list-style: none;
     padding: unset;
     margin: unset;
 }
 
-li {
+.set_dropdown_item {
     background-color: #999999;
     color: #660000;
     padding: 8px;
 }
 
-li:hover {
+.set_dropdown_item:hover {
     border: #8F0000 1px solid;
     color: #8F0000;
 }

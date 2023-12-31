@@ -1,0 +1,25 @@
+.set_page {
+    height: auto;
+    background-color: #D0D0D0;
+    padding-bottom: 40px;
+}
+
+.set_container {
+    margin: 0px;
+}
+
+.set_name {
+    font-family: 'montserrat', sans-serif;
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #660000;
+    text-align: center;
+}
+
+.set_img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

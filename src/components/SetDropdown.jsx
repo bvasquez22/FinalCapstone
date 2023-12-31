@@ -1,14 +1,14 @@
 import React from "react";
 
-import './SetDropdown.css'
+import "./SetDropdown.css";
 
 const SetDropdown = () => {
   return (
     <div className="set_dropdown">
-      <ul>
-        <li>Welcome to Rathe</li>
-        <li>Arcane Rising</li>
-        <li>Crucible of War</li>
+      <ul className="set_dropdown_list">
+        <li className="set_dropdown_item">Welcome to Rathe</li>
+        <li className="set_dropdown_item">Arcane Rising</li>
+        <li className="set_dropdown_item">Crucible of War</li>
       </ul>
     </div>
   );
