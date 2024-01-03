@@ -1,24 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useState } from "react";
+// import { useState } from "react";
 
-import SetDropdown from "./SetDropdown";
+// import SetDropdown from "./NeedsFixing/SetDropdown";
 
 import './Header.css';
 
 const Header = () => {
-    const [isDropdownVisible, setDropdownVisible] = useState(false);
-    const [DropdownValue, setDropdownValue] = useState('');
+    // const [isDropdownVisible, setDropdownVisible] = useState(false);
+    // const [DropdownValue, setDropdownValue] = useState('');
 
-    const handleMouseEnter = (event) => {
-        setDropdownVisible(true);
-        setDropdownValue(event.target.value)
-    };
+    // const handleMouseEnter = (event) => {
+    //     setDropdownVisible(true);
+    //     setDropdownValue(event.target.value)
+    // };
 
-    const handleMouseLeave = () => {
-        setDropdownVisible(false);
-        setDropdownValue('')
-    };
+    // const handleMouseLeave = () => {
+    //     setDropdownVisible(false);
+    //     setDropdownValue('')
+    // };
 
     return (
         <header>
@@ -28,14 +28,14 @@ const Header = () => {
                         <h1>FaB Manager</h1>
                     </Link>
                 </div>
-                <Link
-                    to={`/${DropdownValue}`}
+                <Link to='sets' className="nav_link">
+                    {/* to={`/${DropdownValue}`}
                     className="nav_link"
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
-                >
+                    > */}
                     <h4>Sets</h4>
-                    {isDropdownVisible && <SetDropdown />}
+                    {/* {isDropdownVisible && <SetDropdown />} */}
                 </Link>
                 <Link to='my-collection' className="nav_link">
                 {/* <Link to={`/my-collection/${user.id}`}> */}
