@@ -25,7 +25,7 @@ const Header = () => {
             <nav className="fab_nav">
                 <div className="fab_logo">
                     <Link to='' className="nav_link">
-                        <h1>FaB Manager</h1>
+                        <h1>FaB Master</h1>
                     </Link>
                 </div>
                 <Link to='sets' className="nav_link">

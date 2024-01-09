@@ -13,7 +13,7 @@ const SignIn = () => {
 
   return (
     <div className="signin_container">
-      <h3 className="signin_text">Sign in to manage your collection</h3>
+      <h3 className="signin_text">Sign in to master your collection</h3>
       <form className="signin_form">
         <input className="username_input" type="text" placeholder="Username" />
         <div className="password_container">

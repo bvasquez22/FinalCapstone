@@ -14,7 +14,7 @@ const SignUp = () => {
 
   return (
     <div className="signin_container">
-      <h3 className="signin_text">Sign up to start managing your collection</h3>
+      <h3 className="signin_text">Sign up to start mastering your collection</h3>
       <form className="signup_form">
         <input className="email_input" type="text" placeholder="Enter your email address" />
         <input className="username_input" type="text" placeholder="Enter your username" />

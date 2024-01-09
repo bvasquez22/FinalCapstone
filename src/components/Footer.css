@@ -4,14 +4,13 @@
 }
 
 footer {
-    height: 8vh;
+    height: 10vh;
     background-color: #999999;
     color: #660000;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
+    text-align: center;
 }

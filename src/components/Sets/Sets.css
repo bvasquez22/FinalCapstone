@@ -18,11 +18,16 @@
 
 .set_name {
     font-family: 'montserrat', sans-serif;
+    width: 350px;
     margin: 0px;
     padding-top: 20px;
     padding-bottom: 20px;
     color: #660000;
     text-align: center;
+}
+
+.past_sets .set_name {
+    width: 100%;
 }
 
 .set_img {

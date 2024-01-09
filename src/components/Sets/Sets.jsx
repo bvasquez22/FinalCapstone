@@ -1,25 +1,26 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./Sets.css";
 
 const Sets = () => {
   return (
     <div className="set_page">
-      {/* <div className="current_and_upcoming_sets">
-        <h3 className="set_name">Current</h3>
-        <h3 className="set_name ">Upcoming</h3>
-      </div> */}
+      <div className="current_and_upcoming_sets">
+        <h2 className="set_name">Current</h2>
+        <h2 className="set_name ">Upcoming</h2>
+      </div>
       <div className="current_and_upcoming_sets">
         <div className="current_set">
-          <h3 className="set_name">Current</h3>
-          <img
-            className="set_img"
-            src="https://dhhim4ltzu1pj.cloudfront.net/media/images/bright_lights_logo_3TRCirLnKQgbe.width-10000.png"
-            alt="Bright Lights Logo"
-          />
+          <Link to="/sets/bright-lights">
+            <img
+              className="set_img"
+              src="https://dhhim4ltzu1pj.cloudfront.net/media/images/bright_lights_logo_3TRCirLnKQgbe.width-10000.png"
+              alt="Bright Lights Logo"
+            />
+          </Link>
         </div>
         <div className="upcoming_set">
-          <h3 className="set_name ">Upcoming</h3>
           <img
             className="set_img"
             src="https://dhhim4ltzu1pj.cloudfront.net/media/images/heavy_hitters_logo.width-10000.png"
@@ -27,8 +28,8 @@ const Sets = () => {
           />
         </div>
       </div>
-      <h3 className="set_name">Past</h3>
       <div className="past_sets">
+        <h2 className="set_name">Past</h2>
         <img
           className="set_img"
           src="https://dhhim4ltzu1pj.cloudfront.net/media/images/wtr_logo.width-10000.png"
@@ -73,6 +74,11 @@ const Sets = () => {
           className="set_img"
           src="https://dhhim4ltzu1pj.cloudfront.net/media/images/outsiders23012.width-10000.png"
           alt="Outsiders Logo"
+        />
+        <img
+          className="set_img"
+          src="https://dhhim4ltzu1pj.cloudfront.net/media/images/dusk_till_dawn_logo.width-10000.png"
+          alt="Dusk till Dawn Logo"
         />
       </div>
     </div>
