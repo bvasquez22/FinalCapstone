@@ -1,17 +1,26 @@
-const express = require('express')
-const cors = require('cors')
-const app = express()
-const PORT = process.env.port || 4005
+const express = require("express");
+const cors = require("cors");
+const { sequelize } = require("./util/database");
+const app = express();
 
-app.use(express.json())
-app.use(cors())
+const { User } = require("./models/user");
 
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
+const PORT = process.env.port || 4005;
 
-const {signin, signup} = require('./controllers/auth')
-const {getSet} = require('./controllers/sets')
+app.use(express.json());
+app.use(cors());
 
-app.post('/sign-in', signin)
-app.post('/sign-up', signup)
+// sequelize.sync({ force: true }).then(() => {
+sequelize.sync().then(() => {
+  app.listen(PORT, () =>
+    console.log(`db sync successful and server running on port ${PORT}`)
+  );
+});
 
-app.get('/sets/:set', getSet)
+const { signin, signup } = require("./controllers/auth");
+const { getSet } = require("./controllers/sets");
+
+app.post("/sign-in", signin);
+app.post("/sign-up", signup);
+
+app.get("/sets/:set", getSet);
