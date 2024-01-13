@@ -38,3 +38,70 @@
     display: block;
     margin: auto;
 }
+
+.set_img_header {
+    width: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    display: block;
+    margin: auto;
+}
+
+.card_list {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foil_type_header, .set_id_footer {
+    font-family: 'montserrat', sans-serif;
+    width: 270px;
+    text-align: center;
+}
+
+.foil_type_header {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.card_img {
+    width: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Rainbow_Foil {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #d18ad2, #849ee7, #64b3c4, #b6d877, #f5c079, #eaa169, #e7717d);
+    color: #001524;
+}
+
+.Cold_Foil {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #a0c4ff, #cae4ff, #a0c4ff);
+    color: #001524;
+}
+
+.Non-Foil {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background: #999999;
+    color: #001524;
+}
+
+.extended_art {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    color: #001524;
+    border: 1px solid #001524;
+}
